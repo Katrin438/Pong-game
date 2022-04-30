@@ -1,0 +1,46 @@
+body{
+    background-color:white;
+}
+#pong{
+    border: 2px solid #FFF;
+    position: absolute;
+    margin :auto;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index: 2;
+}
+h1{
+    width: 30%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    z-index: 1;
+
+}
+
+.backPong{
+    display: flex;
+}
+
+.left{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+    z-index: -1;
+}
+
+.right{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    z-index: -1;
+}
